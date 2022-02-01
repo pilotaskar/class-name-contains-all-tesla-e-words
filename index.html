@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>class-name-contain-all-tesla-words</title>
+</head>
+<body>
+   <!-- If contain tesla word from begining or last it will work -->
+    <style>
+        div[class*="tesla"]{
+            color: red;
+        }
+    </style>
+
+    <div class="tesla">Lorem ipsum dolor sit amet.</div>
+    <div class="tesla mercedes">Lorem ipsum dolor sit amet.</div>
+    <div class="bmw_tesla">Lorem ipsum dolor sit amet.</div>
+    <div class="bmw_tesla_mercedes">Lorem ipsum dolor sit amet.</div>
+    <div class="mercedes">Lorem ipsum dolor sit amet.</div>
+
+
+
+    
+</body>
+</html>
